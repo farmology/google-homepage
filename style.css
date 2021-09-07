@@ -4,7 +4,8 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     align-items: center;
-    
+    font-size: 14px;
+    font-family: Arial, sans-serif;
 }
 header {
     min-height: 50px;
@@ -14,14 +15,16 @@ footer {
     min-height: 50px;
 }
 main {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    justify-content: center;
-}
-.topheader {
     display: flex;
-    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    
 }
+.searchbuttons {
+    padding: 10px;
+    
+}
+
 .gheader {
     display:flex;
     justify-content: space-between;
@@ -29,9 +32,10 @@ main {
     
 }
 
-.gheader-right {
-    display: flex;
-    justify-content: flex-end;
+.gfooter {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
