@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    
+}
+header {
+    min-height: 50px;
+    width: 100vw;
+}
+footer {
+    min-height: 50px;
+}
+main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+}
+.topheader {
+    display: flex;
+    padding: 20px;
+}
+.gheader {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.gheader-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding: 0px 10px;
+}
